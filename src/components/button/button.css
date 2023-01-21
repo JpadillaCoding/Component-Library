@@ -1,12 +1,12 @@
 button {
     border-radius: 2px;
-    padding: 15px 20px;
-}
-.large {
     padding: 20px 25px;
 }
+.large {
+    padding: 30px 35px;
+}
 .small {
-    padding: 10px 15px;
+    padding: 15px 15px;
 }
 
 .button-primary {
@@ -40,7 +40,7 @@ button {
     border: #2E90E5;
     cursor: pointer;
 }
-.button-warning:hover {
+.button-danger:hover {
     background-color: #F53848;
     cursor: pointer;
     border: #F53848;
