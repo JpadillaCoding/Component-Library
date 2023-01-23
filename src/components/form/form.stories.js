@@ -5,6 +5,13 @@ import Form from "./form"
 
 storiesOf('Form', module)
 .add('email', ()=> <Form 
-label=""
+label="Email"
 placeholder=""
+size=""
 />)
+.add('Email-small', () => <Form 
+label="Emai"
+size="small"/>)
+.add('Email-Large', () => <Form 
+label="Email" 
+size="large"/>)

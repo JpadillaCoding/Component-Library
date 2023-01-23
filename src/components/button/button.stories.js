@@ -27,11 +27,11 @@ storiesOf('Button', module)
     .add('large', () => <Button 
     label="Do Something"
     type="primary"
-    size="large"
+    size="larger"
     />)
     .add('small', () => <Button 
     label="Do Something"
     type="primary"
-    size="small"
+    size="smaller"
     />)
     

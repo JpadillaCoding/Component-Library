@@ -5,7 +5,7 @@ const Form = (props) => (
 
     <form>
         <label>{props.label}</label>
-        <input placeholder={props.plceholder || props.label}></input>
+        <input className={`input- ${props.size}`} placeholder={props.plceholder || props.label}></input>
     </form>
 )
 

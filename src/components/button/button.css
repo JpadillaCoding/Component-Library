@@ -2,11 +2,12 @@ button {
     border-radius: 2px;
     padding: 20px 25px;
 }
-.large {
+.larger {
     padding: 30px 35px;
+    
 }
-.small {
-    padding: 15px 15px;
+.smaller {
+    padding: 15px 5px;
 }
 
 .button-primary {

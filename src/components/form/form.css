@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 label, input {
     display: block;
+    font-family: "Lato", "sans-seriff";
+}
+label {
+    margin: 0px 0px 5px 2px;
+}
+.input- {
+    border: 2px solid #F6F7F8;
+    border-radius: 5px;
+    padding: 8px 100px 8px 10px;
+}
+.small {
+    padding: 3px 100px 3px 10px;
+}
+.large {
+    padding: 14px 100px 14px 10px;
 }
