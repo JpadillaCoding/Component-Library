@@ -5,9 +5,9 @@ const Checkbox = (props) => (
 
     <form>
         <div>
-            <input type="checkbox" id="checkbox"></input>
-            <span class="checkmark"></span>
             <label class="container">{props.label}
+                <input type="checkbox" id="checkbox"></input>
+                <span className={`checkmark ${props.color}`}></span>
             </label>
         </div>
     </form>

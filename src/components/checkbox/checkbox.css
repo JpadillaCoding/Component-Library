@@ -13,18 +13,28 @@
     height: 0;
     width: 0;
   }
-  .checkmark {
+  .checkmark{
     position: absolute;
     top: 0;
     left: 0;
     height: 13px;
     width: 13px;
-    background-color: #EAF0F6;
-    border: 2px solid #33475B;
-    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 2px;
+  }
+  .blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border: 2px solid #33A0FF;
+    border-radius: 2px;
   }
   .container input:checked ~ .checkmark {
-    background-color: #33475B;
+    background-color: #33A0FF;
   }
   .checkmark:after {
     content: "";
