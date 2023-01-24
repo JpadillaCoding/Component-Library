@@ -7,14 +7,18 @@ label, input {
 label {
     margin: 0px 0px 5px 2px;
 }
-.input- {
+.input-{
     border: 2px solid #F6F7F8;
     border-radius: 5px;
     padding: 8px 100px 8px 10px;
 }
-.small {
+.input-small {
     padding: 3px 100px 3px 10px;
+    border: 2px solid #F6F7F8;
+    border-radius: 5px;
 }
-.large {
+.input-large {
     padding: 14px 100px 14px 10px;
+    border: 2px solid #F6F7F8;
+    border-radius: 5px;
 }

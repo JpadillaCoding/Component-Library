@@ -10,7 +10,7 @@ placeholder=""
 size=""
 />)
 .add('Email-small', () => <Form 
-label="Emai"
+label="Email"
 size="small"/>)
 .add('Email-Large', () => <Form 
 label="Email" 
