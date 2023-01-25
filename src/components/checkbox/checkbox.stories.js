@@ -4,11 +4,11 @@ import { storiesOf } from "@storybook/react";
 import Checkbox from "./checkbox";
 
 storiesOf("Checkbox", module)
-.add("checkbox black" , () => <Checkbox 
-color=""
+.add("checkbox blue" , () => <Checkbox 
+color="blue"
 label="optional label"
 />) 
-.add("checkbox blue", () => <Checkbox 
-color="blue"
+.add("checkbox black", () => <Checkbox 
+color="black"
 label=""
 />)

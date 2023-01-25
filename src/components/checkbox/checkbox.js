@@ -7,7 +7,7 @@ const Checkbox = (props) => (
         <div>
             <label class="container">{props.label}
                 <input type="checkbox" id="checkbox"></input>
-                <span className={`checkmark ${props.color}`}></span>
+                <span className={`checkmark-${props.color}`}></span>
             </label>
         </div>
     </form>
