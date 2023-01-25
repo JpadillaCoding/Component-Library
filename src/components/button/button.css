@@ -2,12 +2,12 @@ button {
     border-radius: 2px;
     padding: 20px 25px;
 }
-.larger {
+.button-large {
     padding: 30px 35px;
     
 }
-.smaller {
-    padding: 15px 5px;
+.button-small {
+    padding: 5px 5px;
 }
 
 .button-primary {
@@ -35,7 +35,9 @@ button {
     color: white;
     border: #22262A;
 }
-
+.outline {
+    background-color: white;
+}
 .button-primary:hover {
     background-color: #2E90E5;
     border: #2E90E5;

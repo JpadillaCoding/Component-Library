@@ -1,9 +1,30 @@
 import React from 'react';
 import "./button.css"
 
-// This is a functional component - just sent up a little differently as an arrow function!
-const Button = (props) => (
-    <button className={`button-${props.type} ${props.size}`} onClick={props.action}>{props.label}</button>
-)
+
+
+const Button = (props) => {
+
+    let classList = "";
+    let types = ["primary","danger","success","warning"];
+
+    if (types.includes(props.type)) {
+        classList += ` button-${props.type}`
+    }
+
+    if (props.size) {
+        classList += ` button-${props.size}`
+    }
+
+/*     <button className={`button-${props.type}`}
+    onClick={props.action}>
+        {props.icon}{props.label}
+    </button> */
+    return (
+        <button className={classList} onClick={props.action}>
+            {props.icon}{props.label}
+        </button>
+    )
+}
 
 export default Button; 

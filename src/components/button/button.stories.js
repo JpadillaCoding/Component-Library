@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { FaHeart } from "react-icons/fa"
 
 import Button from './button';
 
@@ -27,11 +28,24 @@ storiesOf('Button', module)
     .add('large', () => <Button 
     label="Do Something"
     type="primary"
-    size="larger"
+    large
     />)
     .add('small', () => <Button 
     label="Do Something"
     type="primary"
-    size="smaller"
+    size="small"
     />)
+    .add('With Icon', () => <Button 
+    label="Add to Favorites" 
+    type="primary"
+    size ="smaller"
+    icon={<FaHeart />}
+    />)
+    .add('Icon only', () => <Button 
+    label="" 
+    type="primary"
+    size ="smaller"
+    icon={<FaHeart />}
+    />)
+
     
