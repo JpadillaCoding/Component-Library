@@ -25,6 +25,16 @@ storiesOf('Button', module)
     label="Do Something"
     type=""
     />)
+    .add('outline', () => <Button 
+    label="Do Something"
+    type="success"
+    fill="outline"
+    />)
+    .add('filled', () => <Button 
+    label="Do Something"
+    type="danger"
+    fill="fill"
+    />)
     .add('large', () => <Button 
     label="Do Something"
     type="primary"

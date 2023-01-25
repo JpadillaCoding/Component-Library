@@ -11,15 +11,13 @@ const Button = (props) => {
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
     }
-
     if (props.size) {
         classList += ` button-${props.size}`
     }
+    if(props.fill) {
+        classList += ` button-${props.type}-${props.fill}`
+    }
 
-/*     <button className={`button-${props.type}`}
-    onClick={props.action}>
-        {props.icon}{props.label}
-    </button> */
     return (
         <button className={classList} onClick={props.action}>
             {props.icon}{props.label}
