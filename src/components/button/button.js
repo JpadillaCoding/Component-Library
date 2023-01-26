@@ -11,6 +11,12 @@ const Button = (props) => {
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
     }
+    if (!types.includes(props.type)) {
+        classList += `button-`
+        if(props.fill) {
+            classList += ` button-${props.fill}`
+        }
+    }
     if (props.size) {
         classList += ` button-${props.size}`
     }

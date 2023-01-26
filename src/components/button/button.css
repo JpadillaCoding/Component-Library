@@ -80,6 +80,11 @@ button {
     color: rgba(255, 198, 0, 1);
     pointer-events:none
 }
+.button-outline{
+    background-color: white;
+    color: black;
+    pointer-events: none;
+}
 .button-primary-fill {
     background-color: rgba(51, 160, 255, .2);
     border: 0px;
@@ -103,4 +108,10 @@ button {
     border: none;
     color: rgba(255, 198, 0, 1);
     pointer-events:none
+}
+.button-fill{
+    background-color: rgba(0,0,0,.2);
+    color: black;
+    border: none;
+    pointer-events: none;
 }

@@ -24,6 +24,7 @@ storiesOf('Button', module)
     .add('default', () => <Button 
     label="Do Something"
     type=""
+    fill="fill"
     />)
     .add('outline', () => <Button 
     label="Do Something"
@@ -38,7 +39,7 @@ storiesOf('Button', module)
     .add('large', () => <Button 
     label="Do Something"
     type="primary"
-    large
+    size="large"
     />)
     .add('small', () => <Button 
     label="Do Something"
