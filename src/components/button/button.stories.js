@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { FaHeart } from "react-icons/fa"
+import { FaHeart } from "react-icons/fa";
 
 import Button from './button';
 

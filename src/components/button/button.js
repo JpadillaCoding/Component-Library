@@ -2,7 +2,6 @@ import React from 'react';
 import "./button.css"
 
 
-
 const Button = (props) => {
 
     let classList = "";
@@ -26,7 +25,7 @@ const Button = (props) => {
 
     return (
         <button className={classList} onClick={props.action}>
-            {props.icon}{props.label}
+            {props.icon} {props.label}
         </button>
     )
 }

@@ -18,7 +18,7 @@ function Counter(props){
         <div className="wrapper">
             <button className="counter-button" onClick={handleMinus}>-</button>
             <p>{count}</p>
-            <button className="counter-buttton" onClick={handlePlus}>+</button>
+            <button className="counter-button" onClick={handlePlus}>+</button>
         </div>
     )
 }
