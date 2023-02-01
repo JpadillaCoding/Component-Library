@@ -13,7 +13,7 @@ function InputButton (props) {
     return (
     <div >
         <Form placeholder={props.placeholder} size={props.size} />
-        <Button label={props.label} type="primary" size={props.size} action={clicked}/>
+        <button className={`input-button-${props.size}`} onClick={clicked}>{props.label}</button>
     </div>
     )
 }
